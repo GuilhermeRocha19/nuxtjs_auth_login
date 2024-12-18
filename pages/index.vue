@@ -1,19 +1,13 @@
 <template>
-  <body>
-    <LoginMain/>
-  </body>
-</template>
-<script setup lang="ts">
-</script>
+  <div class="flex justify-center items-center min-h-screen bg-gray-100">
+    <ExemploCondicional/>
+    <LoginMain />
+  </div>
 
-<style>
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #f3f4f6;
-    font-family: 'Arial', sans-serif;
-  }
-</style>
+  <p>made by {{ name }}</p>
+</template>
+
+<script setup lang="ts">
+
+const name = 'a';
+</script>
